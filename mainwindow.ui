@@ -7,20 +7,108 @@
     <x>0</x>
     <y>0</y>
     <width>589</width>
-    <height>437</height>
+    <height>531</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget_9">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>531</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="course_line">
+     <item>
+      <widget class="QLabel" name="course_label">
+       <property name="text">
+        <string>Course:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="course_option">
+       <property name="currentText">
+        <string>Pic 10B. Intermediate Programming.</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Pic 10B. Intermediate Programming.</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Pic 10C. Advanced Programming.</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>380</y>
+      <width>160</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="schema_box">
+     <item>
+      <widget class="QRadioButton" name="schema_a">
+       <property name="text">
+        <string>Schema A</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="schema_b">
+       <property name="text">
+        <string>Schema B</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_10">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>450</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="score_line">
+     <item>
+      <widget class="QLabel" name="score_label">
+       <property name="text">
+        <string>Overall Score:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="score">
+       <property name="text">
+        <string>0.0</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
    <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>20</y>
-      <width>261</width>
-      <height>291</height>
+      <x>30</x>
+      <y>80</y>
+      <width>281</width>
+      <height>311</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -189,6 +277,81 @@
        </item>
        <item>
         <widget class="QSpinBox" name="hw_spin_8"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>84</y>
+      <width>231</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="midterm_box">
+       <item>
+        <widget class="QLabel" name="midterm_label">
+         <property name="text">
+          <string>Midterm 1</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="midterm_slider">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="midterm_spin"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="midterm_box_2">
+       <item>
+        <widget class="QLabel" name="midterm_label_2">
+         <property name="text">
+          <string>Midterm 2</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="midterm_slider_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="midterm_spin_2"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="midterm_box_3">
+       <item>
+        <widget class="QLabel" name="midterm_label_3">
+         <property name="text">
+          <string>Midterm 3</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="midterm_slider_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="midterm_spin_3"/>
        </item>
       </layout>
      </item>
