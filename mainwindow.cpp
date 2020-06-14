@@ -77,3 +77,76 @@ void MainWindow::update_grade(){
 }
 
 
+
+
+
+
+void MainWindow::on_hw_slider_valueChanged(int value)
+{
+    update_grade();
+}
+
+void MainWindow::on_hw_slider_2_valueChanged(int value)
+{
+    update_grade();
+}
+
+void MainWindow::on_hw_slider_3_valueChanged(int value)
+{
+    update_grade();
+}
+
+void MainWindow::on_hw_slider_4_valueChanged(int value)
+{
+    update_grade();
+}
+
+void MainWindow::on_hw_slider_5_valueChanged(int value)
+{
+    update_grade();
+}
+
+void MainWindow::on_hw_slider_6_valueChanged(int value)
+{
+    update_grade();
+}
+
+void MainWindow::on_hw_slider_7_valueChanged(int value)
+{
+    update_grade();
+}
+
+void MainWindow::on_hw_slider_8_valueChanged(int value)
+{
+    update_grade();
+}
+
+void MainWindow::on_midterm_slider_valueChanged(int value)
+{
+    update_grade();
+}
+
+void MainWindow::on_midterm_slider_2_valueChanged(int value)
+{
+    update_grade();
+}
+
+void MainWindow::on_final_slider_valueChanged(int value)
+{
+    update_grade();
+}
+
+void MainWindow::on_course_option_currentIndexChanged(int index)
+{
+    update_grade();
+}
+
+void MainWindow::on_schema_a_clicked()
+{
+    update_grade();
+}
+
+void MainWindow::on_schema_b_clicked()
+{
+    update_grade();
+}
