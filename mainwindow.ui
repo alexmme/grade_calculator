@@ -664,5 +664,101 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>midterm_slider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>midterm_spin</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>445</x>
+     <y>122</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>444</x>
+     <y>156</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>midterm_slider_2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>midterm_spin_2</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>445</x>
+     <y>215</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>444</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>midterm_slider_3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>midterm_spin_3</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>445</x>
+     <y>308</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>444</x>
+     <y>342</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>midterm_spin</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>midterm_slider</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>444</x>
+     <y>156</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>445</x>
+     <y>122</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>midterm_spin_2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>midterm_slider_2</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>444</x>
+     <y>249</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>445</x>
+     <y>215</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>midterm_spin_3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>midterm_slider_3</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>444</x>
+     <y>342</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>445</x>
+     <y>308</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
 </ui>
